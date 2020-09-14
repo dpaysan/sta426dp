@@ -10,7 +10,8 @@ An essential component of the course work will be a project report that should a
   
   
   
-![Yang et al. (2019)](https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg=200x200)
+<center><img src="https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg" alt="Yang et al.(2019)" width="400"/></center>
+
   
   
 Additionally it might necessary to display some equations like e.g. the definition for Pearson correlation coefficient
