@@ -4,12 +4,13 @@ This is repository is intended to document the course work by the author for the
 
 The course covers a range of topics "including basic molecular biology, genomics technologies and in particular, a wide range of statistical and computational methods that have been used in the analysis of DNA microarray, high throughput sequencing and cytometry experiments."<sup>1</sup>
 
+---
 An essential component of the course work will be a project report that should also include publication-ready figures that convey the results of the applied statistical analysis. The following provides an example of such a figure<sup>2<sup>.
   
   
   
   
-![Yang et al. (2019)](https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg)
+![Yang et al. (2019)](https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg=200x200)
   
   
 Additionally it might necessary to display some equations like e.g. the definition for Pearson correlation coefficient
