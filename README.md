@@ -12,7 +12,7 @@ An essential component of the course work will be a project report that should a
   
 <p align="center">
   
-  <img align="center" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg" alt="Yang et al.(2019)" width="400"/>
+  <img align="center" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg" alt="Yang et al.(2019)" width="600"/>
 
 </p>
 
