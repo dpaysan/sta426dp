@@ -10,21 +10,19 @@ An essential component of the course work will be a project report that should a
   
   
   
-<p align="center">
-  
-  <img align="center" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg" alt="Yang et al.(2019)" width="600"/>
-
+<p align="center"> 
+  <img src="https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg" alt="Yang et al.(2019)" width="600"/>
 </p>
 
   
   
 Additionally it might necessary to display some equations like e.g. the definition for Pearson correlation coefficient
 
-<p align="center">
-  
-  <a href="https://www.codecogs.com/eqnedit.php?latex=\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" title="\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" align="center" /></a>
 
+<p align="center">
+  <a href="https://www.codecogs.com/eqnedit.php?latex=\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" title="\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" /></a>
 </p>
+
 
 or some code to e.g. install some software packages to be used for the analysis by R when documenting the work like e.g.
 
