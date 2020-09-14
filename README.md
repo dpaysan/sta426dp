@@ -10,21 +10,21 @@ An essential component of the course work will be a project report that should a
   
   
   
-<center>
+<p align="center">
   
   <img align="center" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/18/2019.12.13.875922/F2.large.jpg" alt="Yang et al.(2019)" width="400"/>
 
-</center>
+</p>
 
   
   
 Additionally it might necessary to display some equations like e.g. the definition for Pearson correlation coefficient
 
-<center>
+<p align="center">
   
   <a href="https://www.codecogs.com/eqnedit.php?latex=\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" title="\rho_{XY}=\frac{Cov(X,Y)}{\sigma_X\sigma_Y}" align="center" /></a>
 
-</center>
+</p>
 
 or some code to e.g. install some software packages to be used for the analysis by R when documenting the work like e.g.
 
