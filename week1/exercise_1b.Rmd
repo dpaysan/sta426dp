@@ -1,0 +1,46 @@
+---
+title: "Solution to exercise 1b"
+author: "Daniel Paysan"
+date: "9/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 0. Environmental setup
+
+We first set up the environment. For this simple setup that means simply loading the ggplot2 library that we will use for the visualization and fixing the random seed to ensure reproducibility of the analyses.
+
+```{r cars}
+set.seed(1234)
+library(ggplot2)
+library(gridExtra)
+```
+
+# 1. Generate samples
+
+We now sample from the defined log-normal distribution with $\mu=1$ and $\sigma=0.25$.
+
+```{r pressure, echo=FALSE}
+mu <- 1
+sigma <- 0.25
+
+x <- rlnorm(n=100, meanlog=mu, sdlog = sigma)
+```
+
+# 2. Visualize the sample distribution
+
+We now visualize the sample distribution in form of two histograms with one using the untransformed scale and one showing the distribution on the log scale.
+
+
+## 2a. Sample distribution on the raw scale
+```{r}
+raw_scale_hist <- qplot(x, bins=20, geom = 'histogram', ylab = 'Count', main = 'Sample distribution on the raw scale')
+log_scale_hist <- qplot(x, bins=20, geom= 'histogram', ylab = 'Count', main='Sample distribution on the log scale', 
+                        xlab = 'log10(x)') +scale_x_log10()
+
+grid.arrange(raw_scale_hist, log_scale_hist, ncol=2)
+```
+
