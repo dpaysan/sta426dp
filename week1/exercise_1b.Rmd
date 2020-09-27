@@ -35,7 +35,7 @@ x <- rlnorm(n=100, meanlog=mu, sdlog = sigma)
 We now visualize the sample distribution in form of two histograms with one using the untransformed scale and one showing the distribution on the log scale.
 
 
-## 2a. Sample distribution on the raw scale
+## 2a. Sample distribution on the raw scale and log scale
 ```{r}
 raw_scale_hist <- qplot(x, bins=20, geom = 'histogram', ylab = 'Count', main = 'Sample distribution on the raw scale')
 log_scale_hist <- qplot(x, bins=20, geom= 'histogram', ylab = 'Count', main='Sample distribution on the log scale', 

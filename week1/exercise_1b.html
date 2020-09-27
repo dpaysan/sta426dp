@@ -383,8 +383,8 @@ library(gridExtra)</code></pre>
 <div id="visualize-the-sample-distribution" class="section level1">
 <h1>2. Visualize the sample distribution</h1>
 <p>We now visualize the sample distribution in form of two histograms with one using the untransformed scale and one showing the distribution on the log scale.</p>
-<div id="a.-sample-distribution-on-the-raw-scale" class="section level2">
-<h2>2a. Sample distribution on the raw scale</h2>
+<div id="a.-sample-distribution-on-the-raw-scale-and-log-scale" class="section level2">
+<h2>2a. Sample distribution on the raw scale and log scale</h2>
 <pre class="r"><code>raw_scale_hist &lt;- qplot(x, bins=20, geom = 'histogram', ylab = 'Count', main = 'Sample distribution on the raw scale')
 log_scale_hist &lt;- qplot(x, bins=20, geom= 'histogram', ylab = 'Count', main='Sample distribution on the log scale', 
                         xlab = 'log10(x)') +scale_x_log10()
